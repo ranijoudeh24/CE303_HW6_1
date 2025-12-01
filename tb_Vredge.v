@@ -70,7 +70,6 @@ module tb_Vredge;
             if (EDGE !== expected_EDGE) begin
                 $display("Mismatch at time %0t: X=%0b EDGE=%0b expected=%0b",
                          $time, X, EDGE, expected_EDGE);
-                $stop;
             end
         end
     end
