@@ -7,7 +7,6 @@ module Vredge (
     output reg  EDGE   
 );
 
-    // State encoding
     localparam [1:0]
         A = 2'b00,  
         B = 2'b01,
